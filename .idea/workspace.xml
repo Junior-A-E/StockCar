@@ -4,8 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1de7f9fd-c1eb-4969-9d82-fdce23133c2f" name="Changes" comment="">
+    <list default="true" id="1de7f9fd-c1eb-4969-9d82-fdce23133c2f" name="Changes" comment=" add test coverages&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/esiea/api/VoitureAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/esiea/dao/ReponseVoiture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/esiea/dao/VoitureDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/esiea/metier/Voiture$Carburant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/esiea/metier/Voiture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/Configuration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/StringUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/api/VoitureAPITest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dao/VoitureDAOTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/metier/VoitureTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +79,21 @@
       <option name="presentableId" value="Default" />
       <updated>1697802356682</updated>
     </task>
+    <task id="LOCAL-00001" summary=" add test coverages&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1698396613990</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698396613990</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Conflicts change" />
+    <MESSAGE value=" add test coverages&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value=" add test coverages&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -91,6 +115,8 @@
     <SUITE FILE_PATH="coverage/esieaBack$VoitureTest.ic" NAME="VoitureTest Coverage Results" MODIFIED="1698394607642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>metier.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/esieaBack$VoitureAPITest.ic" NAME="VoitureAPITest Coverage Results" MODIFIED="1698395391788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/esieaBack$VoitureAPITest.ic" NAME="VoitureAPITest Coverage Results" MODIFIED="1698396827058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>api.*</FILTER>
+    </SUITE>
   </component>
 </project>
