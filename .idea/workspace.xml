@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1de7f9fd-c1eb-4969-9d82-fdce23133c2f" name="Changes" comment="" />
+    <list default="true" id="1de7f9fd-c1eb-4969-9d82-fdce23133c2f" name="Changes" comment="Conflicts change">
+      <change afterPath="$PROJECT_DIR$/target/test-classes/dao/VoitureDAOTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/metier/VoitureTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/esieaBack.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/esieaBack.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/esiea/api/VoitureAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/VoitureAPITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/esiea/dao/VoitureDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dao/VoitureDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/esiea/metier/VoitureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/metier/VoitureTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/VoitureAPITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/api/VoitureAPITest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/java/esiea/api/VoitureAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/java/esiea/api/VoitureAPITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/java/esiea/dao/VoitureDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/java/esiea/dao/VoitureDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/java/esiea/metier/VoitureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/java/esiea/metier/VoitureTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,9 +33,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -36,8 +53,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "vigny",
-    "last_opened_file_path": "/home/vigny/Desktop/StockCar",
+    "com.intellij.ide.FileNotInSourceRootChecker.no.check": "true",
+    "git-widget-placeholder": "Rebasing main",
+    "last_opened_file_path": "C:/Users/afatc/OneDrive/LICENCE/Bac5/Qualité logicel/Projet/esieaBack",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -45,41 +63,45 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.VoitureTest">
+  <component name="RunManager" selected="JUnit.VoitureAPITest">
+    <configuration type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="esieaBack" />
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VoitureAPITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="esieaBack" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VoitureAPITest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.VoitureAPITest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VoitureAPITest.testAjouterVoiture" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VoitureAPITest.testAjouterVoitureValidJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="esieaBack" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VoitureAPITest" />
-      <option name="METHOD_NAME" value="testAjouterVoiture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.VoitureAPITest" />
+      <option name="METHOD_NAME" value="testAjouterVoitureValidJson" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VoitureAPITest.testGetVoituresJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="esieaBack" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VoitureAPITest" />
-      <option name="METHOD_NAME" value="testGetVoituresJson" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VoitureServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="esieaBack" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VoitureServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,24 +110,54 @@
       <module name="esieaBack" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="esiea.metier.*" />
+          <option name="PATTERN" value="metier.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="esiea.metier" />
-      <option name="MAIN_CLASS_NAME" value="esiea.metier.VoitureTest" />
+      <option name="PACKAGE_NAME" value="metier" />
+      <option name="MAIN_CLASS_NAME" value="metier.VoitureTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="java in esieaBack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="esieaBack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="metier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.VoitureAPITest" />
+      <item itemvalue="JUnit.VoitureAPITest.testAjouterVoitureValidJson" />
+      <item itemvalue="JUnit.VoitureTest" />
+      <item itemvalue="JUnit.java in esieaBack" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.VoitureTest" />
         <item itemvalue="JUnit.VoitureAPITest" />
-        <item itemvalue="JUnit.VoitureAPITest.testAjouterVoiture" />
-        <item itemvalue="JUnit.VoitureAPITest.testGetVoituresJson" />
-        <item itemvalue="JUnit.VoitureServiceTest" />
+        <item itemvalue="JUnit.VoitureTest" />
+        <item itemvalue="JUnit.java in esieaBack" />
+        <item itemvalue="JUnit.VoitureAPITest.testAjouterVoitureValidJson" />
       </list>
     </recent_temporary>
   </component>
@@ -120,13 +172,18 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge pull request #2 from Junior-A-E/vigny&#10;&#10;bonne version de fichiers avec les tests qui" />
+    <MESSAGE value="Conflicts change" />
+    <option name="LAST_COMMIT_MESSAGE" value="Conflicts change" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/tests/VoitureAPITest.java</url>
           <line>26</line>
-          <properties class="VoitureAPITest" method="testAjouterVoitureValidJson">
+          <properties class="VoitureAPITest">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -137,6 +194,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/esieaBack$VoitureServiceTest.ic" NAME="VoitureServiceTest Coverage Results" MODIFIED="1698356507685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/esieaBack$VoitureAPITest.ic" NAME="VoitureAPITest Coverage Results" MODIFIED="1698359083733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/esieaBack$VoitureTest.ic" NAME="VoitureTest Coverage Results" MODIFIED="1698394607642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>metier.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/esieaBack$VoitureAPITest.ic" NAME="VoitureAPITest Coverage Results" MODIFIED="1698395391788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

@@ -1,5 +1,6 @@
-package esiea.metier;
+package metier;
 
+import esiea.metier.Voiture;
 import org.junit.jupiter.api.Test;
 
 import static junit.framework.Assert.*;

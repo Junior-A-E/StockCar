@@ -1,4 +1,4 @@
-package esiea.dao;
+package dao;
 
 public class VoitureDAOTest {
 

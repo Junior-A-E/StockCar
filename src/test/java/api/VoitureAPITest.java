@@ -1,3 +1,5 @@
+package api;
+
 import esiea.api.VoitureAPI;
 import org.glassfish.jersey.server.ResourceConfig;
 import org.glassfish.jersey.test.JerseyTest;
