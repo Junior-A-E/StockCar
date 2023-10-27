@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1de7f9fd-c1eb-4969-9d82-fdce23133c2f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/target/test-classes/VoitureAPITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/VoitureAPITest.class" afterDir="false" />
-    </list>
+    <list default="true" id="1de7f9fd-c1eb-4969-9d82-fdce23133c2f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,8 +36,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/afatc/OneDrive/LICENCE/Bac5/Qualité logicel/Projet/esieaBack",
+    "git-widget-placeholder": "vigny",
+    "last_opened_file_path": "/home/vigny/Desktop/StockCar",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -47,7 +45,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.VoitureAPITest">
+  <component name="RunManager" selected="JUnit.VoitureTest">
     <configuration name="VoitureAPITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="esieaBack" />
       <option name="PACKAGE_NAME" value="" />
@@ -86,8 +84,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VoitureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="esieaBack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="esiea.metier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="esiea.metier" />
+      <option name="MAIN_CLASS_NAME" value="esiea.metier.VoitureTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.VoitureTest" />
         <item itemvalue="JUnit.VoitureAPITest" />
         <item itemvalue="JUnit.VoitureAPITest.testAjouterVoiture" />
         <item itemvalue="JUnit.VoitureAPITest.testGetVoituresJson" />
