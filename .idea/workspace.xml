@@ -6,16 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1de7f9fd-c1eb-4969-9d82-fdce23133c2f" name="Changes" comment=" add test coverages&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/esiea/api/VoitureAPI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/esiea/dao/ReponseVoiture.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/esiea/dao/VoitureDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/esiea/metier/Voiture$Carburant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/esiea/metier/Voiture.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/Configuration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/StringUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/api/VoitureAPITest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/dao/VoitureDAOTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/metier/VoitureTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/VoitureAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/VoitureAPITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/api/VoitureAPITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/api/VoitureAPITest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +42,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;com.intellij.ide.FileNotInSourceRootChecker.no.check&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;junior&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/afatc/OneDrive/LICENCE/Bac5/Qualité logicel/Projet/esieaBack&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
@@ -58,7 +51,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.All">
     <configuration name="All" type="JUnit" factoryName="JUnit">
       <module name="esieaBack" />
       <option name="PACKAGE_NAME" value="" />
@@ -69,6 +62,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VoitureAPITest.testAjouterVoitureValidJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="esieaBack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.VoitureAPITest" />
+      <option name="METHOD_NAME" value="testAjouterVoitureValidJson" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VoitureAPITest.testSupprimerVoitureFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="esieaBack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.VoitureAPITest" />
+      <option name="METHOD_NAME" value="testSupprimerVoitureFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.All" />
+      <item itemvalue="JUnit.VoitureAPITest.testAjouterVoitureValidJson" />
+      <item itemvalue="JUnit.VoitureAPITest.testSupprimerVoitureFalse" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.VoitureAPITest.testAjouterVoitureValidJson" />
+        <item itemvalue="JUnit.VoitureAPITest.testSupprimerVoitureFalse" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -109,8 +145,15 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="stmt" />
+        <watch expression="stmt" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/esieaBack$All.ic" NAME="All Coverage Results" MODIFIED="1701518741748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/esieaBack$VoitureServiceTest.ic" NAME="VoitureServiceTest Coverage Results" MODIFIED="1698356507685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/esieaBack$VoitureTest.ic" NAME="VoitureTest Coverage Results" MODIFIED="1698394607642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>metier.*</FILTER>
